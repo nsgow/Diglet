@@ -1,0 +1,231 @@
+/* add your CSS here */
+
+.card {
+    background-color: #E7BA77;
+    background-image: url('https://image.freepik.com/free-vector/abstract-background-with-a-yellow-watercolor-texture_1048-2243.jpg');
+    background-repeat: none;
+    background-size: cover;
+    border: #FFE164 10px solid;
+    border-radius: 10px;
+    -moz-box-shadow: inset 0 0 10px #000000;
+    -webkit-box-shadow: inset 0 0 10px #000000;
+    box-shadow: inset 0 0 10px #000000;
+    margin-top: 50px;
+    margin-left: 10px;
+    width: 300px;
+}
+
+#pokemon-container {
+    background: linear-gradient(#186ED1, #44A4E1, #95CDEB);
+    border: #FFE164 4px solid;
+    border-style: outset;
+    box-shadow: #301E0A 3px 3px 20px 2px;
+    margin: 20px;
+    padding-left: 20px;
+}
+
+#pokemon-body {
+    background-color: #A78875;
+    border-top-left-radius: 40px;
+    border-top-right-radius: 40px;
+    box-shadow: #000 3px 3px 20px;
+    height: 140px;
+    margin-left: 10px;
+    position: relative;
+    width: 100px;
+
+    animation-name: updown;
+    animation-direction: alternate-reverse;
+    animation-duration: 1.0s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes updown {
+    from {
+        bottom: -30px;
+    }
+    to {
+        bottom: -10px;
+    }
+}
+
+#head-light {
+    background-color: #CBB4A5;
+    border-top-left-radius: 90px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 90px;
+    bottom: -5px;
+    height: 40px;
+    left: 7px;
+    opacity: 0.8;
+    position: relative;
+    width: 40px;
+}
+
+.eyes {
+    background-color: #1E1E1E;
+    border-radius: 80%;
+    height: 30px;
+    position: relative;
+    width: 12px;
+}
+
+.eyeballs {
+    background-color: #FFF;
+    border-radius: 90%;
+    bottom: -2px;
+    height: 8px;
+    left: 2px;
+    position: relative;
+    width: 4px;
+}
+
+.right {
+    bottom: 10px;
+    right: -60px;
+}
+
+.left {
+    bottom: 40px;
+    right: -20px;
+}
+
+#nose {
+    background-color: #BA83A3;
+    border-radius: 50%;
+    height: 20px;
+    left: 20px;
+    position: relative;
+    top: -40px;
+    width: 40px;
+}
+
+#nose-shade {
+    background-color: #E5B7D4;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 8px;
+    height: 10px;
+    left: 2px;
+    position: relative;
+    top: 1px;
+    width: 30px;
+}
+
+#rock-base {
+    background-color: #A1A5AA;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 20px;
+    height: 40px;
+    position: relative;
+    width: 150px;
+}
+
+#rock-shade {
+    background-color: #7D7F85;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 30px;
+    box-shadow: #000 -2px 1px 3px;
+    height: 38px;
+    left: 70px;
+    position: relative;
+    width: 80px;
+}
+
+#title-heading {
+    font-size: 0;
+    position: relative;
+    top: 20px;
+}
+
+#name {
+    color: #000;
+    display: inline-block;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    width: 50%;
+}
+
+#level {
+    color: #000;
+    display: inline-block;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: -1px;
+    text-align: right;
+    width: 50%;
+}
+
+#banner {
+	color: #000;
+	background-color: #B4940D;
+	border-radius: 5px;
+	border: 2px #FFF883 solid;
+	font-family: 'Oswald', sans-serif;
+	font-size: 11px;
+	font-style: oblique;
+	margin: 0 auto;
+	position: relative;
+	text-align: center;
+	bottom: 10px;
+	width: 230px
+}
+
+#stats table {
+	border-collapse: collapse;
+	height: 164px; 
+	margin-left: auto; 
+	margin-right: auto;
+	text-align: center;
+	width: 275px; 
+}
+
+#stats td {
+	width: 100px;
+}
+
+.attack {
+	color: #000;
+	border-bottom: #000 2px solid;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+	font-size: 20px;
+	font-weight: 600;	
+}
+
+.attack-number {
+	font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+
+}
+
+.weakness {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 10px;
+	font-weight: 600;
+}
+
+.weakness-label {
+	position: relative;
+	top: -5px;
+}
+
+.weakness-value {
+	position: relative;
+	top: -20px;
+}
+
+#footer {
+    border: #FFE164 1px solid;
+    border-style: outset;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 12px;
+    font-style: oblique;
+    font-weight: 500;
+    margin: 0 auto;
+    padding: 3px;
+    position: relative;
+    width: 260px;
+    bottom: 20px;
+ }
